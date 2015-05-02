@@ -9,15 +9,30 @@
         android:layout_height="match_parent"
         android:src="@drawable/smp_dude"
         android:padding="15dip"/>
+   
     <TextView android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:gravity="center"
         android:background="@drawable/smp_sign"
-        android:text="Click here for a random poi video!"
+        android:text="Press for a random poi video."
         android:textColor="@drawable/csl_light"
-        android:textSize="50dp"
-        android:layout_centerInParent="true"
+        android:textSize="35dp"
         android:padding="20dip"
-        android:layout_margin="10dip"/>
+        android:layout_margin="10dip"
+        android:layout_centerInParent="true" />
+
+    <TextView android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/smp_sign"
+        android:text="Visit SpinMorePoi.com"
+        android:textColor="@drawable/csl_light"
+        android:textSize="20dp"
+        android:padding="20dip"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="47dp"
+        android:clickable="true" />
 
 </RelativeLayout>
