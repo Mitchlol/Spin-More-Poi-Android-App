@@ -35,7 +35,7 @@
         android:textSize="40dp"
         android:padding="20dip"
         android:layout_margin="10dip"
-        android:layout_centerInParent="true"
+        android:layout_centerInParent="true" />
 
     <TextView android:id="@+id/button2"
         android:layout_width="wrap_content"
