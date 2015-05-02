@@ -41,4 +41,11 @@ public class RandomizerActivity extends Activity {
             playRandomVideo();
         }
     }
+
+    //Here's my shitty attempt to simply make a button open up a url in a browser
+    @OnClick(R.id.button2)
+    public void openWebURL() {
+        Intent browse = new Intent( Intent.ACTION_VIEW , Uri.parse( "http://www.spinmorepoi.com/" ) );
+        startActivity( browse );
+    }
 }
